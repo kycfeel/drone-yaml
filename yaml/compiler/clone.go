@@ -43,6 +43,8 @@ func cloneImage(src *yaml.Pipeline) string {
 		return "drone/git:windows-1709-amd64"
 	case src.Platform.OS == "windows":
 		return "drone/git:windows-1809-amd64"
+	case src.Platform.OS == "linux" && src.Platform.Arch == "s390x":
+		return "kycfeel/drone-git:linux-s390x"
 	default:
 		return "drone/git"
 	}
