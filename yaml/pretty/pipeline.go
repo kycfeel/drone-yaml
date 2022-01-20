@@ -15,7 +15,7 @@
 package pretty
 
 import (
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml"
 )
 
 // helper function to pretty print the pipeline resource.

@@ -26,13 +26,13 @@ import (
 	"strings"
 
 	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/compiler"
-	"github.com/drone/drone-yaml/yaml/compiler/transform"
-	"github.com/drone/drone-yaml/yaml/converter"
-	"github.com/drone/drone-yaml/yaml/linter"
-	"github.com/drone/drone-yaml/yaml/pretty"
-	"github.com/drone/drone-yaml/yaml/signer"
+	"github.com/kycfeel/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml/compiler"
+	"github.com/kycfeel/drone-yaml/yaml/compiler/transform"
+	"github.com/kycfeel/drone-yaml/yaml/converter"
+	"github.com/kycfeel/drone-yaml/yaml/linter"
+	"github.com/kycfeel/drone-yaml/yaml/pretty"
+	"github.com/kycfeel/drone-yaml/yaml/signer"
 
 	"gopkg.in/alecthomas/kingpin.v2"
 )

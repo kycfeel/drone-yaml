@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml"
 	"github.com/google/go-cmp/cmp"
 )
 

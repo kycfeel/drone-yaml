@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml"
 )
 
 var os = map[string]struct{}{

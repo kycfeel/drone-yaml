@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml"
 )
 
 func toIgnoreErr(from *yaml.Container) bool {

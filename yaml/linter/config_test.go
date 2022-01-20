@@ -7,7 +7,7 @@ package linter
 import (
 	"testing"
 
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/kycfeel/drone-yaml/yaml"
 )
 
 func TestManifest(t *testing.T) {
